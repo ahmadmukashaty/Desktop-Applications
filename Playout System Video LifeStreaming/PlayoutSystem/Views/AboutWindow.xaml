@@ -1,0 +1,25 @@
+﻿<Window x:Class="PlayoutSystem.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlayoutSystem.Views"
+        mc:Ignorable="d"
+        Title="About" Height="200" Width="300" Icon="/PlayoutSystem;component/Icons/about.png" Background="WhiteSmoke">
+    <Grid>
+        <Image  Source="/Icons/tvIcon.png" HorizontalAlignment="Right" Width="100" Height="100" VerticalAlignment="Top" Margin="0,30,0,0"/>
+        <Label Content="i2 Playout System" FontSize="22" Margin="0,10,0,0"/>
+        <TextBlock Margin="6,50,0,0">           
+            <Hyperlink NavigateUri="http://www.i2iptv.com" RequestNavigate="Hyperlink_RequestNavigate">www.i2iptv.com</Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="6,70,0,0">           
+            <Hyperlink>wessam_sb@yahoo.com</Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="6,90,0,0">           
+            <Hyperlink>07701708075</Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="6,110,0,0">           
+            <Hyperlink>07504252827</Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>

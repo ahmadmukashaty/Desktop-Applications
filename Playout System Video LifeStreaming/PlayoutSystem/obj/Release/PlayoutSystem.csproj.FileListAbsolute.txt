@@ -1,0 +1,327 @@
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe.config
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Playout.exe
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.pdb
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.System.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.EF6.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.Linq.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.pdb
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.xml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csprojResolveAssemblyReference.cache
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\DataGridStyle.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\ScrollViewerStyle.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\App.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_Content.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.cache
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.lref
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\App.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.baml
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.g.resources
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.Properties.Resources.resources
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csproj.GenerateResource.Cache
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe.licenses
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe
+C:\Program Files\nsoftware\IPWorks Encrypt V9 .NET Edition\demos - winform\encrypt\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe.config
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Playout.exe
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.EF6.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.Linq.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.DataGrid.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.Toolkit.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.xml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csprojResolveAssemblyReference.cache
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\DataGridStyle.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\ScrollViewerStyle.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\App.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_Content.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.cache
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.lref
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\App.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.baml
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.g.resources
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.Properties.Resources.resources
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csproj.GenerateResource.Cache
+C:\Users\Ahmed\Desktop\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe.licenses
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe.config
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Playout.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.EF6.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.Linq.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csprojResolveAssemblyReference.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\DataGridStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\ScrollViewerStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\App.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_Content.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.lref
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\App.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.g.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.Properties.Resources.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csproj.GenerateResource.Cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe.licenses
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe.config
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Playout.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.EF6.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.Linq.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csprojResolveAssemblyReference.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\DataGridStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\ScrollViewerStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\App.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_Content.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.lref
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\App.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.g.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.Properties.Resources.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csproj.GenerateResource.Cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\87 final version fix schedule\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe.licenses
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe.config
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Playout.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.exe
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\PlayoutSystem.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.EF6.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.Linq.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.DataGrid.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Xceed.Wpf.Toolkit.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\EntityFramework.SqlServer.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.Shell.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.pdb
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\Microsoft.WindowsAPICodePack.ShellExtensions.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\nsoftware.IPWorksEncrypt.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\System.Data.SQLite.xml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csprojResolveAssemblyReference.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\DataGridStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Resources\ScrollViewerStyle.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\App.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\MainWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\DelayDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ImportDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_Content.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem_MarkupCompile.lref
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\App.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\AboutWindow.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\ProgressDialog.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\Views\RenameChannelInterface.baml
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.g.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.Properties.Resources.resources
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.csproj.GenerateResource.Cache
+E:\مشاريع خارجية\مشروع playout\مراحل التنفيذ\88 final version fix schedule & list stream\PlayoutSystem full\PlayoutSystem\obj\Release\PlayoutSystem.exe.licenses

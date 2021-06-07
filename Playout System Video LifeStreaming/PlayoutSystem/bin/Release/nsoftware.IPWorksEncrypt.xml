@@ -1,0 +1,2719 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>nsoftware.IPWorksEncrypt</name>
+    </assembly>
+    <members>
+        <member name="F:nsoftware.core.LoadCertificateForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:nsoftware.core.LoadCertificateForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:nsoftware.core.LoadCertificateForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.AesErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.AesProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Aes.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Aes.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Aes.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Aes.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.BlowfishErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.BlowfishProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Blowfish.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Blowfish.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Blowfish.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Blowfish.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CastErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CastProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Cast.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Cast.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Cast.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Cast.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CertmgrCertChainEventArgs">
+            <summary>Event arguments for the CertChain event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CertmgrCertListEventArgs">
+            <summary>Event arguments for the CertList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CertmgrErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CertmgrKeyListEventArgs">
+            <summary>Event arguments for the KeyList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.CertmgrStoreListEventArgs">
+            <summary>Event arguments for the StoreList event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.SetCertStore(System.Byte[],System.Int32,System.Int32)">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.CreateCertificate(System.String,System.Int32)">
+            <summary>Creates a new self-signed certificate in the current store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.CreateKey(System.String)">
+            <summary>Creates a new keyset associated with the provided name.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.DeleteCertificate">
+            <summary>Deletes the currently selected certificate from the store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.DeleteKey(System.String)">
+            <summary>Deletes the keyset associated with the provided name.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ExportCertificate(System.String,System.String)">
+            <summary>Saves the current certificate to a PFX file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.GenerateCSR(System.String,System.String)">
+            <summary>Generates a new CSR to be sent to a signing authority.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ImportCertificate(System.String,System.String,System.String)">
+            <summary>Imports a certificate from a PFX file into the current certificate store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ImportSignedCSR(System.Byte[],System.String)">
+            <summary>Imports a signed CSR.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.IssueCertificate(System.String,System.Int32)">
+            <summary>Creates a new certificate in the current store, signed by the selected certificate.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ListCertificateStores">
+            <summary>Lists certificate stores.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ListKeys">
+            <summary>List keysets in a CSP.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ListMachineStores">
+            <summary>List machine certificate stores.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ListStoreCertificates">
+            <summary>List certificates in a store.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ReadCertificate(System.String)">
+            <summary>Loads a certificate from a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.Reset">
+            <summary>Resets all certificate properties to their default values.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.SaveCertificate(System.String)">
+            <summary>Saves the current certificate to a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.ShowCertificateChain">
+            <summary>Show certificate chain.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certmgr.SignCSR(System.Byte[],System.Int32)">
+            <summary>Creates a signed certificate from a CSR.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Certmgr.OnCertChain">
+            <summary>Shows the certificate chain for the certificate (see the ShowCertificateChain method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Certmgr.OnCertList">
+            <summary>Lists the certificates in a store (see the ListStoreCertificates method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Certmgr.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Certmgr.OnKeyList">
+            <summary>Lists the keysets in a CSP (see the ListKeys method).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Certmgr.OnStoreList">
+            <summary>Lists the system certificate stores (see the ListCertificateStores and ListMachineStores methods).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.Cert">
+            <summary>The current selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.CertExtensions">
+            <summary>A list of extensions used by the currently selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.CertStoreB">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.CertStore">
+            <summary>The certificate store to search for certificates.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.CertStorePassword">
+            <summary>The password for the certificate store (if any).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certmgr.CertStoreType">
+            <summary>The type of certificate store for CertStore .</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DesErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DesProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Des.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Des.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Des.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Des.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DpapiErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DpapiProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.Protect">
+            <summary>Protects the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dpapi.Unprotect">
+            <summary>Unprotects the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Dpapi.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Dpapi.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.DataDescription">
+            <summary>The description of data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.Password">
+            <summary>An optional password to further protect data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.PromptTitle">
+            <summary>The title of the prompt window.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dpapi.PromptUser">
+            <summary>Whether to display a prompt.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DsaErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.DsaProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.SetHashSignature(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.SetHashValue(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.CreateKey">
+            <summary>Creates a new key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.Sign">
+            <summary>Creates a hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Dsa.VerifySignature">
+            <summary>Verifies the signature for the specified data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Dsa.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Dsa.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.Certificate">
+            <summary>The certificate used for signing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.Key">
+            <summary>The DSA key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.SignerCert">
+            <summary>The certificate used for signature verification.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.SignerKey">
+            <summary>The public key used to verify the signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.HashAlgorithm">
+            <summary>The hash algorithm used for hash computation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.HashSignatureB">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.HashSignature">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.HashValueB">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.HashValue">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Dsa.UseHex">
+            <summary>Whether HashValue and HashSignature are hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.EccErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.EccProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.SetHashSignature(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.SetHashValue(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.ComputeSecret">
+            <summary>Computes a shared secret.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.CreateKey">
+            <summary>Creates a new key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.Sign">
+            <summary>Creates a hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ecc.VerifySignature">
+            <summary>Verifies the signature for the specified data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Ecc.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Ecc.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.Key">
+            <summary>The ECC key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.RecipientKey">
+            <summary>The public key used to compute the shared secret.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.SignerKey">
+            <summary>The public key used to verify the signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.HashAlgorithm">
+            <summary>The hash algorithm used for hash computation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.HashSignatureB">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.HashSignature">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.HashValueB">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.HashValue">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.KeyDerivationFunction">
+            <summary>The key derivation function.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.SharedSecretB">
+            <summary>The computed shared secret.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.SharedSecret">
+            <summary>The computed shared secret.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ecc.UseHex">
+            <summary>Whether HashValue and HashSignature are hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.ElgamalErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.CreateKey">
+            <summary>Creates a new key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.Decrypt">
+            <summary>Decrypts the input data using the specified private key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.Encrypt">
+            <summary>Encrypts the input data using the recipient's public key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Elgamal.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Elgamal.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.Key">
+            <summary>The Elgamal key used for decryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.RecipientKey">
+            <summary>The recipient's public key used when encrypting.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Elgamal.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.EzcryptErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.EzcryptProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezcrypt.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Ezcrypt.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Ezcrypt.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.Algorithm">
+            <summary>The symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezcrypt.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.EzrandErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezrand.SetSeed(System.Byte[],System.Int32,System.Int32)">
+            <summary>The seed.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezrand.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezrand.GetNextBytes">
+            <summary>Generates a sequence of random bytes.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezrand.GetNextInt">
+            <summary>Generates a random integer.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Ezrand.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Ezrand.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.Algorithm">
+            <summary>The random number algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.Max">
+            <summary>The exclusive upper bound.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.Min">
+            <summary>The inclusive lower bound.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.RandBytesB">
+            <summary>The random byte array.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.RandBytes">
+            <summary>The random byte array.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.RandBytesLength">
+            <summary>The length of the byte array to be generated.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.RandInt">
+            <summary>The random integer.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.SeedB">
+            <summary>The seed.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Ezrand.Seed">
+            <summary>The seed.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.HashErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.HashProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the hash algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.ComputeHash">
+            <summary>Computes a hash.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.HashBlock(System.Byte[],System.Boolean)">
+            <summary>Computes the hash value of specified data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Hash.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Hash.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Hash.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.Algorithm">
+            <summary>The algorithm used to create the hash.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.EncodeHash">
+            <summary>Whether the hash value is hex encoded.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.HashValueB">
+            <summary>The hash value.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.HashValue">
+            <summary>The hash value.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.KeyB">
+            <summary>The secret key for the hash algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Hash.Key">
+            <summary>The secret key for the hash algorithm.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.IdeaErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.IdeaProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Idea.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Idea.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Idea.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Idea.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrKeyListEventArgs">
+            <summary>Event arguments for the KeyList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrKeyPassphraseEventArgs">
+            <summary>Event arguments for the KeyPassphrase event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrSignatureListEventArgs">
+            <summary>Event arguments for the SignatureList event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrStatusEventArgs">
+            <summary>Event arguments for the Status event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.KeymgrSubkeyListEventArgs">
+            <summary>Event arguments for the SubkeyList event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.AddRevoker(System.String)">
+            <summary>Adds a designated revoker to the key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.AddUserId(System.String)">
+            <summary>Adds the specified user Id to the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ChangeExpirationDate(System.Int32)">
+            <summary>Changes the expiration date of the key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ChangePassphrase(System.String)">
+            <summary>Changes the passphrase of the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.CreateKey(System.String,System.String)">
+            <summary>Creates an OpenPGP key pair.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.DeleteKey(System.String)">
+            <summary>Deletes the specified key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ExportPublicKey(System.String,System.Boolean)">
+            <summary>Exports the public key of the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ExportSecretKey(System.String,System.Boolean)">
+            <summary>Exports the private key of the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ImportKey(System.String,System.String)">
+            <summary>Imports the key specified by UserId to the current keyring.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ImportKeyB(System.Byte[],System.String)">
+            <summary>Imports the key specified by UserId to the current keyring.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ListKeys">
+            <summary>Lists keys in the specified Keyring .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ListSignatures">
+            <summary>Lists all signatures of the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.ListSubkeys">
+            <summary>Lists the subkeys of the currently selected key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.LoadKeyring(System.String)">
+            <summary>Loads the keyring from disk.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.Reset">
+            <summary>Resets the component properties.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.RevokeKey(System.String)">
+            <summary>Revokes the specified key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.SaveKeyring(System.String)">
+            <summary>Saves the current Keyring to disk.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.SignUserId(System.String,System.String)">
+            <summary>Signs the specified user Id of the current key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Keymgr.VerifyPassphrase(System.String)">
+            <summary>Verifies the passphrase of specified key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Keymgr.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnKeyList">
+            <summary>Fires for each key in the keyring when ListKeys is called.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnKeyPassphrase">
+            <summary>Fired if the passphrase of current key is incorrect or empty.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnSignatureList">
+            <summary>Fires for each signature of the current key when ListSignatures is called.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnStatus">
+            <summary>Shows the progress of the operation.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Keymgr.OnSubkeyList">
+            <summary>Fires once for each subkey listed when ListSubkeys is called.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Keymgr.Key">
+            <summary>The currently selected key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Keymgr.Keyring">
+            <summary>The location on disk of the keyring.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OnetimepasswordErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Onetimepassword.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Onetimepassword.CreatePassword">
+            <summary>Creates a Time-Based or HMAC-Based One Time Password.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Onetimepassword.Reset">
+            <summary>Reset the variables to default value.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Onetimepassword.ValidatePassword">
+            <summary>Validates a Time-Based or HMAC-Based One Time Password.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Onetimepassword.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.Counter">
+            <summary>The counter used for HMAC-Based One Time Password creation or validation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.Password">
+            <summary>The HMAC-Based or Time-Based One Time Password.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.PasswordAlgorithm">
+            <summary>The algorithm used to create or validate the password.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.Secret">
+            <summary>The Base32 encoded shared secret used when creating and validating a password.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Onetimepassword.TimeStep">
+            <summary>The time step (in seconds) used for Time-Based One Time Password creation or validation.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpKeyPassphraseEventArgs">
+            <summary>Event arguments for the KeyPassphrase event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpRecipientInfoEventArgs">
+            <summary>Event arguments for the RecipientInfo event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpSignatureInfoEventArgs">
+            <summary>Event arguments for the SignatureInfo event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpStatusEventArgs">
+            <summary>Event arguments for the Status event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.OpenpgpVerificationStatusEventArgs">
+            <summary>Event arguments for the VerificationStatus event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.SetOutputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.Decrypt">
+            <summary>Decrypts the message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.DecryptAndVerifySignature">
+            <summary>Decrypts and verifies the signature of the message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.Encrypt">
+            <summary>Encrypts the message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.GetRecipientInfo">
+            <summary>Gets recipient information for an encrypted message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.Reset">
+            <summary>Resets the component properties.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.SetOutputStream(System.IO.Stream)">
+            <summary>The stream to which the component will write the fully encrypted or decrypted OpenPGP data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.Sign">
+            <summary>Signs the message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.SignAndEncrypt">
+            <summary>Signs and encrypts the current message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Openpgp.VerifySignature">
+            <summary>Verifies the signature of the current message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnKeyPassphrase">
+            <summary>Fired if the passphrase of current key is incorrect or empty.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnRecipientInfo">
+            <summary>Fired for each recipient key of the encrypted message.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnSignatureInfo">
+            <summary>Fired during verification of the signed message.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnStatus">
+            <summary>Shows the progress of the operation.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Openpgp.OnVerificationStatus">
+            <summary>Fired after verification of the signed message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.Keys">
+            <summary>A collection of keys used for cryptographic operations.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.MessageHeaders">
+            <summary>A collection of headers in the ASCII armored message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.RecipientKeys">
+            <summary>The collection of keys belonging to the recipient of the message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.SignerKeys">
+            <summary>The collection of keys belonging to the signer of the message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.ASCIIArmor">
+            <summary>Specifies whether to use ASCII armor to encode the output message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.ClearSignature">
+            <summary>Specifies whether or not to create a cleartext signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.CompressionMethod">
+            <summary>The compression algorithm used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.DetachedSignature">
+            <summary>Specifies whether or not to generate a detached signature when signing a message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.EncryptingAlgorithm">
+            <summary>The encryption algorithm used when encrypting.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Openpgp.SigningAlgorithm">
+            <summary>The signature hash algorithm used when signing.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.PbkdfErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Pbkdf.SetPassword(System.Byte[],System.Int32,System.Int32)">
+            <summary>The master password from which a derived key is generated.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Pbkdf.SetSalt(System.Byte[],System.Int32,System.Int32)">
+            <summary>The cryptographic salt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Pbkdf.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Pbkdf.CreateKey">
+            <summary>Creates a derived key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Pbkdf.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Pbkdf.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Algorithm">
+            <summary>The underlying pseudorandom function.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Iterations">
+            <summary>The number of iterations to perform.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.KeyB">
+            <summary>The derived key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Key">
+            <summary>The derived key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.KeyLength">
+            <summary>The desired length in bits of the derived key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.PasswordB">
+            <summary>The master password from which a derived key is generated.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Password">
+            <summary>The master password from which a derived key is generated.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.SaltB">
+            <summary>The cryptographic salt.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Salt">
+            <summary>The cryptographic salt.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Pbkdf.Version">
+            <summary>The PBKDF version.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.Rc2ErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.Rc2ProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc2.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rc2.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rc2.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc2.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.Rc4ErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.Rc4ProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rc4.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rc4.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rc4.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rc4.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.RsaErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.RsaProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.SetHashSignature(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.SetHashValue(System.Byte[],System.Int32,System.Int32)">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.CreateKey">
+            <summary>Creates a new key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.Decrypt">
+            <summary>Decrypts the input data using the specified private key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.Encrypt">
+            <summary>Encrypts the input data using the recipient's public key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.Sign">
+            <summary>Creates a hash signature.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Rsa.VerifySignature">
+            <summary>Verifies the signature for the specified data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rsa.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Rsa.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.Certificate">
+            <summary>The certificate used for signing and decryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.Key">
+            <summary>The RSA key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.RecipientCert">
+            <summary>The certificate used for encryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.RecipientKey">
+            <summary>The recipient's public key used when encrypting.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.SignerCert">
+            <summary>The certificate used for signature verification.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.SignerKey">
+            <summary>The public key used to verify the signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.HashAlgorithm">
+            <summary>The hash algorithm used for signing and signature verification.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.HashSignatureB">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.HashSignature">
+            <summary>The hash signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.HashValueB">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.HashValue">
+            <summary>The hash value of the data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Rsa.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.SmimeErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.SmimeRecipientInfoEventArgs">
+            <summary>Event arguments for the RecipientInfo event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.SmimeSignerCertInfoEventArgs">
+            <summary>Event arguments for the SignerCertInfo event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.SetMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The fully encoded or decoded S/MIME message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.AddRecipientCert(System.Byte[])">
+            <summary>Used to add recipient certificates used to encrypt messages.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.Decrypt">
+            <summary>Decrypts the current Message .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.DecryptAndVerifySignature">
+            <summary>Decrypts and verifies the signature of the current Message .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.DecryptFile(System.String,System.String)">
+            <summary>Decrypts the contents of a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.Encrypt">
+            <summary>Encrypts the current Message .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.EncryptFile(System.String,System.String)">
+            <summary>Encrypts the contents of a file.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.GetRecipientInfo">
+            <summary>Gets the recipient infos for an encrypted message.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.Reset">
+            <summary>Resets the component properties.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encode or decode.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.SetOutputStream(System.IO.Stream)">
+            <summary>The stream to which the component will write the fully encoded or decoded S/MIME data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.Sign">
+            <summary>Signs the current Message .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.SignAndEncrypt">
+            <summary>Signs and encrypts the current Message .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Smime.VerifySignature">
+            <summary>Verifies the signature of the current Message .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Smime.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Smime.OnRecipientInfo">
+            <summary>Fired for each recipient certificate of the encrypted message.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Smime.OnSignerCertInfo">
+            <summary>Fired during verification of the signed message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.Certificate">
+            <summary>The current selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.MessageHeaders">
+            <summary>Collection of headers from the SMIME message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.RecipientCerts">
+            <summary>The collection of recipient certificates of the message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.SignerCert">
+            <summary>Contains the certificate of the message signer.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.SignerCertChain">
+            <summary>The certificate chain of the signing certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.DetachedSignature">
+            <summary>Specifies whether to include a detached signature when signing a message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.EncryptingAlgorithm">
+            <summary>Textual description of the encrypting algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.IncludeCertificate">
+            <summary>Specifies whether to include the signer's certificate with the signed message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.IncludeChain">
+            <summary>Specifies whether to include the signer's certificate chain with the signed message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.InternalHeaders">
+            <summary>The headers of the MIME entity inside the encrypted or signed message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.MessageB">
+            <summary>The fully encoded or decoded S/MIME message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.Message">
+            <summary>The fully encoded or decoded S/MIME message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.MessageEncrypted">
+            <summary>Whether or not the current message is encrypted.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.MessageHeadersString">
+            <summary>String version of headers from the SMIME message.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.MessageSigned">
+            <summary>Whether or not the current message is signed.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Smime.SigningAlgorithm">
+            <summary>Textual description of the signature hash algorithm.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TeaErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TeaProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tea.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Tea.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Tea.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.Algorithm">
+            <summary>The TEA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tea.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TripledesErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TripledesProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Tripledes.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Tripledes.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Tripledes.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Tripledes.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TwofishErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.TwofishProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.SetInputMessage(System.Byte[],System.Int32,System.Int32)">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.SetIV(System.Byte[],System.Int32,System.Int32)">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.SetKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.Decrypt">
+            <summary>Decrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.DecryptBlock(System.Byte[],System.Boolean)">
+            <summary>Decrypts a block and returns the decrypted data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.Encrypt">
+            <summary>Encrypts the data.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.EncryptBlock(System.Byte[],System.Boolean)">
+            <summary>Encrypts data and returns the encrypted block.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Twofish.SetOutputStream(System.IO.Stream)">
+            <summary>Sets the stream to which the component will write encrypted or decrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Twofish.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Twofish.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.CipherMode">
+            <summary>The cipher mode of operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.InputFile">
+            <summary>The file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.InputMessageB">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.InputMessage">
+            <summary>The message to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.IVB">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.IV">
+            <summary>The initialization vector (IV).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.KeyB">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.Key">
+            <summary>The secret key for the symmetric algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.KeyPassword">
+            <summary>A password to generate the Key and IV .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.OutputMessageB">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.OutputMessage">
+            <summary>The output message after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.PaddingMode">
+            <summary>The padding mode.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Twofish.UseHex">
+            <summary>Whether input or output is hex encoded.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlencryptEncryptedDataInfoEventArgs">
+            <summary>Event arguments for the EncryptedDataInfo event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlencryptErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlencryptProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlencryptStatusEventArgs">
+            <summary>Event arguments for the Status event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.SetSymmetricKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The symmetric key used to encrypt and decrypt the XML.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.Decrypt">
+            <summary>Decrypts the XML.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.DoEvents">
+            <summary>Processes events from the internal message queue.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.Encrypt">
+            <summary>Encrypts the XML.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to encrypt or decrypt.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlencrypt.SetOutputStream(System.IO.Stream)">
+            <summary>The stream to which the component will write the encrypted or decrypted XML.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlencrypt.OnEncryptedDataInfo">
+            <summary>Fired once for each encrypted element when Decrypt is called.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlencrypt.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlencrypt.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlencrypt.OnStatus">
+            <summary>Provides information about the current operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.Certificate">
+            <summary>The certificate used for decryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.EncryptedDataDetails">
+            <summary>A collection of encrypted data details.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.RecipientCert">
+            <summary>The certificate used for encryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.EncryptingAlgorithm">
+            <summary>Then encryption algorithm used when encrypting.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.InputFile">
+            <summary>The XML file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.InputXML">
+            <summary>The XML to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.OutputXML">
+            <summary>The output XML after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.SymmetricKeyB">
+            <summary>The symmetric key used to encrypt and decrypt the XML.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlencrypt.SymmetricKey">
+            <summary>The symmetric key used to encrypt and decrypt the XML.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlsigErrorEventArgs">
+            <summary>Event arguments for the Error event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlsigProgressEventArgs">
+            <summary>Event arguments for the Progress event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlsigSignatureInfoEventArgs">
+            <summary>Event arguments for the SignatureInfo event.</summary>
+        </member>
+        <member name="T:nsoftware.IPWorksEncrypt.XmlsigStatusEventArgs">
+            <summary>Event arguments for the Status event.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.SetHMACKey(System.Byte[],System.Int32,System.Int32)">
+            <summary>The HMAC key used with the 'HMAC-SHA1' signing algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.Config(System.String)">
+            <summary>Sets or retrieves a configuration setting .</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.DoEvents">
+            <summary>Processes events from the internal message queue.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.Reset">
+            <summary>Resets the component.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.SetInputStream(System.IO.Stream)">
+            <summary>Sets the stream from which the component will read data to sign or verify.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.SetOutputStream(System.IO.Stream)">
+            <summary>The stream to which the component will write the signed or verified XML.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.Sign">
+            <summary>Signs the XML.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Xmlsig.VerifySignature">
+            <summary>Verifies signed XML.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.RuntimeLicense">
+            <summary>Runtime license key (derived from the development license, if any).</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlsig.OnError">
+            <summary>Information about errors during data delivery.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlsig.OnProgress">
+            <summary>Fired as progress is made.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlsig.OnSignatureInfo">
+            <summary>Fired when a signature is found.</summary>
+        </member>
+        <member name="E:nsoftware.IPWorksEncrypt.Xmlsig.OnStatus">
+            <summary>Provides information about the current operation.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.Certificate">
+            <summary>The certificate used for signing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.References">
+            <summary>A collection of references.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.SignerCert">
+            <summary>The certificate used for signature verification.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.CanonicalizationMethod">
+            <summary>The canonicalization method applied to the signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.HMACKeyB">
+            <summary>The HMAC key used with the 'HMAC-SHA1' signing algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.HMACKey">
+            <summary>The HMAC key used with the 'HMAC-SHA1' signing algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.InputFile">
+            <summary>The XML file to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.InputXML">
+            <summary>The XML to process.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.OutputFile">
+            <summary>The output file.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.OutputXML">
+            <summary>The output XML after processing.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.Overwrite">
+            <summary>Indicates whether or not the component should overwrite files.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.SignatureXPath">
+            <summary>The XPath of the signature.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Xmlsig.SigningAlgorithm">
+            <summary>The signing algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(nsoftware.IPWorksEncrypt.CertStoreTypes,System.String,System.String,System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(nsoftware.IPWorksEncrypt.CertStoreTypes,System.String,System.String,System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(nsoftware.IPWorksEncrypt.CertStoreTypes,System.Byte[],System.String,System.String)">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Certificate.#ctor(nsoftware.IPWorksEncrypt.CertStoreTypes,System.Byte[],System.String,System.Byte[])">
+            <summary>The digital certificate being used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.EffectiveDate">
+            <summary>The date which this certificate becomes valid.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.EncodedB">
+            <summary>The certificate (PEM/base64 encoded).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Encoded">
+            <summary>The certificate (PEM/base64 encoded).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.ExpirationDate">
+            <summary>The date the certificate expires.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.ExtendedKeyUsage">
+            <summary>A comma-delimited list of extended key usage identifiers.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Fingerprint">
+            <summary>The hex-encoded, 16-byte MD5 fingerprint of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Issuer">
+            <summary>The issuer of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PrivateKey">
+            <summary>The private key of the certificate (if available).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PrivateKeyAvailable">
+            <summary>Shows whether a PrivateKey is available for the  selected certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PrivateKeyContainer">
+            <summary>The name of the PrivateKey container for the  certificate (if available).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PublicKey">
+            <summary>The public key of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PublicKeyAlgorithm">
+            <summary>Textual description of the public key algorithm of the  certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.PublicKeyLength">
+            <summary>The length of the certificate public key (in bits).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.SerialNumber">
+            <summary>The serial number of the certificate encoded as a  string.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.SignatureAlgorithm">
+            <summary>Text description of the signature algorithm of the  certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.StoreB">
+            <summary>The name of the certificate store for the client certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Store">
+            <summary>The name of the certificate store for the client certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.StorePassword">
+            <summary>If the certificate store is of a type that requires  a password, this property is used to specify that  password in order to open the certificate store.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.StoreType">
+            <summary>The type of certificate store for this certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Subject">
+            <summary>The subject of the certificate used for client authentication.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.SubjectAltNames">
+            <summary>A comma-separated lists of alternative subject names of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.ThumbprintMD5">
+            <summary>MD5 hash of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.ThumbprintSHA1">
+            <summary>SHA1 hash of the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Usage">
+            <summary>Text description of UsageFlags .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.UsageFlags">
+            <summary>Flags that show intended use for the certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Certificate.Version">
+            <summary>The certificate's version number.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.CertExtension.#ctor(System.String,System.Byte[],System.Boolean)">
+            <summary>Represents an extension for a certificate.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.CertExtension.Critical">
+            <summary>Whether or not the extension is defined as critical.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.CertExtension.OID">
+            <summary>The ASN.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.CertExtension.ValueB">
+            <summary>The raw value of this certificate extension.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.CertExtension.Value">
+            <summary>The raw value of this certificate extension.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.DSAKey.#ctor">
+            <summary>Contains the parameters for the DSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.DSAKey.#ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the parameters for the DSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.DSAKey.#ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the parameters for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.GB">
+            <summary>Represents the G parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.G">
+            <summary>Represents the G parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.PB">
+            <summary>Represents the P parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.P">
+            <summary>Represents the P parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.PrivateKey">
+            <summary>This property is a PEM formatted private key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.PublicKey">
+            <summary>This property is a PEM formatted public key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.QB">
+            <summary>Represents the Q parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.Q">
+            <summary>Represents the Q parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.XB">
+            <summary>Represents the X parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.X">
+            <summary>Represents the X parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.YB">
+            <summary>Represents the Y parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.DSAKey.Y">
+            <summary>Represents the Y parameter for the DSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ECCKey.#ctor">
+            <summary>Contains the parameters for the ECC algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ECCKey.#ctor(System.Byte[],System.Byte[])">
+            <summary>Contains the parameters for the ECC algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ECCKey.#ctor(System.Byte[],System.Byte[],System.Int32)">
+            <summary>Contains the parameters for the ECC algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ECCKey.#ctor(System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the parameters for the ECC algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ECCKey.#ctor(System.Byte[],System.Byte[],System.Byte[],System.Int32)">
+            <summary>Contains the parameters for the ECC algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.Curve">
+            <summary>Specifies the curve being used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.KB">
+            <summary>Represent the private key (K) parameter.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.K">
+            <summary>Represent the private key (K) parameter.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.PrivateKey">
+            <summary>This property is a PEM formatted private key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.PublicKey">
+            <summary>This property is a PEM formatted public key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.RxB">
+            <summary>Represents the public key's Rx parameter.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.Rx">
+            <summary>Represents the public key's Rx parameter.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.RyB">
+            <summary>Represents the public key's Ry parameter.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ECCKey.Ry">
+            <summary>Represents the public key's Ry parameter.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ElgamalKey.#ctor">
+            <summary>Contains the typical parameters for the Elgamal algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ElgamalKey.#ctor(System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the typical parameters for the Elgamal algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.ElgamalKey.#ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the typical parameters for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.GB">
+            <summary>Represents the G parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.G">
+            <summary>Represents the G parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.PB">
+            <summary>Represents the P parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.P">
+            <summary>Represents the P parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.PrivateKey">
+            <summary>This property is a PEM formatted private key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.PublicKey">
+            <summary>This property is a PEM formatted public key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.XB">
+            <summary>Represents the X parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.X">
+            <summary>Represents the X parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.YB">
+            <summary>Represents the Y parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.ElgamalKey.Y">
+            <summary>Represents the Y parameter for the Elgamal algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Key.#ctor(System.String)">
+            <summary>The OpenPGP key being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Key.#ctor(System.Byte[])">
+            <summary>The OpenPGP key being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Key.#ctor(System.String,System.String)">
+            <summary>The OpenPGP key being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Key.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>The OpenPGP key being used.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Key.#ctor(System.Byte[],System.String)">
+            <summary>The OpenPGP key being used.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.EffectiveDate">
+            <summary>The date when this key becomes valid.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.EncodedB">
+            <summary>The key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Encoded">
+            <summary>The key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.ExpirationDate">
+            <summary>The date the key expires.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Fingerprint">
+            <summary>The hex-encoded, 20-byte fingerprint of the key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Id">
+            <summary>The hex-encoded, 4-byte key Id.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.OtherUserIds">
+            <summary>If the specified key has alternate user Ids associated with it, this property returns a comma-separated list of the other user Ids.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Passphrase">
+            <summary>The passphrase for the key's secret key (if any).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.PublicKey">
+            <summary>The public key of the key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.PublicKeyAlgorithm">
+            <summary>A text description of the public key algorithm of the  key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.PublicKeyLength">
+            <summary>The length of the public key in bits.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Revoked">
+            <summary>Whether or not the key is revoked.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.SecretKey">
+            <summary>The secret key of the key (if available).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.SecretKeyAvailable">
+            <summary>Whether or not a secret key is available for the selected key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.Usage">
+            <summary>A text description of UsageFlags .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.UsageFlags">
+            <summary>Flags that show the intended use for the key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Key.UserId">
+            <summary>The user Id of the key.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Header.#ctor">
+            <summary>An HTTP header as it is received from the server.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.Header.#ctor(System.String,System.String)">
+            <summary>An HTTP header as it is received from the server.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Header.Field">
+            <summary>This property contains the name of the HTTP header (same case as it is delivered).</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.Header.Value">
+            <summary>This property contains the header contents.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.RSAKey.#ctor">
+            <summary>Contains the typical parameters for the RSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.RSAKey.#ctor(System.Byte[],System.Byte[])">
+            <summary>Contains the typical parameters for the RSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.RSAKey.#ctor(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[])">
+            <summary>Contains the typical parameters for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.DB">
+            <summary>Represents the D parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.D">
+            <summary>Represents the D parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.DPB">
+            <summary>Represents the DP parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.DP">
+            <summary>Represents the DP parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.DQB">
+            <summary>Represents the DQ parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.DQ">
+            <summary>Represents the DQ parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.ExponentB">
+            <summary>Represents the Exponent parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.Exponent">
+            <summary>Represents the Exponent parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.InverseQB">
+            <summary>Represents the InverseQ parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.InverseQ">
+            <summary>Represents the InverseQ parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.ModulusB">
+            <summary>Represents the Modulus parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.Modulus">
+            <summary>Represents the Modulus parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.PB">
+            <summary>Represents the P parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.P">
+            <summary>Represents the P parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.PrivateKey">
+            <summary>This property is a PEM formatted private key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.PublicKey">
+            <summary>This property is a PEM formatted public key.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.QB">
+            <summary>Represents the Q parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.RSAKey.Q">
+            <summary>Represents the Q parameter for the RSA algorithm.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.#ctor">
+            <summary>This type defines details about the data to be encrypted.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>This type defines details about the data to be encrypted.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.Id">
+            <summary>This property is an optional identifier for the encrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.MIMEType">
+            <summary>This property specifies the MIME type of the encrypted data.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.Scope">
+            <summary>This property specifies the scope of the encryption.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLEncryptedDataDetail.XMLElement">
+            <summary>This property specifies the XPath to the element which will be encrypted.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.XMLSigReference.#ctor">
+            <summary>This type defines information about the reference.</summary>
+        </member>
+        <member name="M:nsoftware.IPWorksEncrypt.XMLSigReference.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>This type defines information about the reference.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLSigReference.HashAlgorithm">
+            <summary>This property defines the hash algorithm to apply to the element specified by XMLElement .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLSigReference.HashValue">
+            <summary>This property holds the calculated hash value for the specified XMLElement .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLSigReference.TransformAlgorithms">
+            <summary>This property specifies a comma separated list of canonicalization algorithms to be applied to XMLElement .</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLSigReference.URI">
+            <summary>This property is the URI of the reference.</summary>
+        </member>
+        <member name="P:nsoftware.IPWorksEncrypt.XMLSigReference.XMLElement">
+            <summary>This property specifies XML element to sign or verify using XPath notation.</summary>
+        </member>
+    </members>
+</doc>

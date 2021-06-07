@@ -1,0 +1,28 @@
+nsoftware.IPWorksEncrypt.Aes, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Blowfish, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Cast, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Certmgr, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Des, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Dpapi, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Dsa, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Ecc, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Elgamal, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Ezcrypt, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Ezrand, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Hash, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Idea, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Keymgr, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Onetimepassword, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Openpgp, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Pbkdf, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Rc2, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Rc4, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Rsa, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Smime, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Tea, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Tripledes, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Twofish, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Xmlencrypt, nsoftware.IPWorksEncrypt
+nsoftware.IPWorksEncrypt.Xmlsig, nsoftware.IPWorksEncrypt
+
+
